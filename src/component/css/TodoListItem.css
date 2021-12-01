@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+/* font-family: 'Marcellus', serif; */
+
+.list-item {
+    font-family: 'Marcellus', serif;
+    border-bottom: 1px dotted rgba(0,0,0,0.2);
+    padding: 10px 5px;
+}
+.completed-item{
+    background: rgba(0, 0, 0, 0.1);
+    font-style: italic;
+     text-decoration: line-through;
+}
+
+.list-item .todo-list-item-text {
+    max-width: 350px;
+}
