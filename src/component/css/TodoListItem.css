@@ -13,5 +13,16 @@
 }
 
 .list-item .todo-list-item-text {
-    max-width: 350px;
+    flex-basis: 70%;   
+}
+
+@media(min-width:768px){ 
+ .list-item .todo-list-item-text {
+     flex-basis: 80%;
+ }
+}
+@media(min-width:992) {
+    .list-item .todo-list-item-text {
+        flex-basis: 90%;
+    }
 }
